@@ -25,6 +25,7 @@ public class HomePage extends BaseClass {
 	public Select select;
 	public WebDriver driver;
 
+	//
 	/**
 	 * 
 	 * We use Page Factory pattern to initialize web elements which are defined in Page Objects.
