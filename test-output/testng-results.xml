@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="101449" started-at="2018-08-05T16:49:44Z" finished-at="2018-08-05T16:51:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="101449" started-at="2018-08-05T16:49:44Z" finished-at="2018-08-05T16:51:25Z">
+      <class name="com.qa.test.script.TestScript">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.script.TestScript@26653222]" name="setUp" is-config="true" duration-ms="24653" started-at="2018-08-05T16:49:44Z" finished-at="2018-08-05T16:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTittleOfWebSite()[pri:1, instance:com.qa.test.script.TestScript@26653222]" name="verifyTittleOfWebSite" duration-ms="39" started-at="2018-08-05T16:50:09Z" description="verify title Of WebSite" finished-at="2018-08-05T16:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTittleOfWebSite -->
+        <test-method status="PASS" signature="verifyBookTittle()[pri:2, instance:com.qa.test.script.TestScript@26653222]" name="verifyBookTittle" duration-ms="9455" started-at="2018-08-05T16:50:09Z" description="Verify Book Tittle " finished-at="2018-08-05T16:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookTittle -->
+        <test-method status="PASS" signature="paperType()[pri:3, instance:com.qa.test.script.TestScript@26653222]" name="paperType" duration-ms="3963" started-at="2018-08-05T16:50:18Z" description="Verify the book paper type" finished-at="2018-08-05T16:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperType -->
+        <test-method status="PASS" signature="OfferPricePaperback()[pri:4, instance:com.qa.test.script.TestScript@26653222]" name="OfferPricePaperback" duration-ms="3304" started-at="2018-08-05T16:50:22Z" description="Verify the offer price type of the paper- Paperback" finished-at="2018-08-05T16:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OfferPricePaperback -->
+        <test-method status="PASS" signature="ActualPricePaperback()[pri:5, instance:com.qa.test.script.TestScript@26653222]" name="ActualPricePaperback" duration-ms="3402" started-at="2018-08-05T16:50:25Z" description="Verify the Actual price type of the paper- Paperback" finished-at="2018-08-05T16:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActualPricePaperback -->
+        <test-method status="PASS" signature="hardcoverPaper()[pri:6, instance:com.qa.test.script.TestScript@26653222]" name="hardcoverPaper" duration-ms="3468" started-at="2018-08-05T16:50:29Z" description="Verify the book paper type - Hardcover" finished-at="2018-08-05T16:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hardcoverPaper -->
+        <test-method status="PASS" signature="publisher()[pri:7, instance:com.qa.test.script.TestScript@26653222]" name="publisher" duration-ms="3057" started-at="2018-08-05T16:50:32Z" description=" Verify the publisher date book listing and book details page." finished-at="2018-08-05T16:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publisher -->
+        <test-method status="PASS" signature="hardcoverPaperPrice()[pri:8, instance:com.qa.test.script.TestScript@26653222]" name="hardcoverPaperPrice" duration-ms="4026" started-at="2018-08-05T16:50:35Z" description=" Verify the Hardcover price  book listing and book details page." finished-at="2018-08-05T16:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hardcoverPaperPrice -->
+        <test-method status="PASS" signature="FirstAuthorName()[pri:9, instance:com.qa.test.script.TestScript@26653222]" name="FirstAuthorName" duration-ms="3214" started-at="2018-08-05T16:50:39Z" description=" Verify the Author Name book details page." finished-at="2018-08-05T16:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstAuthorName -->
+        <test-method status="PASS" signature="PaperbackPages()[pri:10, instance:com.qa.test.script.TestScript@26653222]" name="PaperbackPages" duration-ms="3504" started-at="2018-08-05T16:50:43Z" description="Product details Paperback :- Pages" finished-at="2018-08-05T16:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaperbackPages -->
+        <test-method status="PASS" signature="publisherNameAndDate()[pri:11, instance:com.qa.test.script.TestScript@26653222]" name="publisherNameAndDate" duration-ms="3431" started-at="2018-08-05T16:50:46Z" description="Product details Paperback :- publisher Name And Date" finished-at="2018-08-05T16:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publisherNameAndDate -->
+        <test-method status="PASS" signature="language()[pri:12, instance:com.qa.test.script.TestScript@26653222]" name="language" duration-ms="3525" started-at="2018-08-05T16:50:49Z" description="Product details Paperback :- Language" finished-at="2018-08-05T16:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- language -->
+        <test-method status="PASS" signature="iSBNTen()[pri:13, instance:com.qa.test.script.TestScript@26653222]" name="iSBNTen" duration-ms="3104" started-at="2018-08-05T16:50:53Z" description="Product details Paperback :- ISBN-10:" finished-at="2018-08-05T16:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iSBNTen -->
+        <test-method status="PASS" signature="ISBN13()[pri:14, instance:com.qa.test.script.TestScript@26653222]" name="ISBN13" duration-ms="3172" started-at="2018-08-05T16:50:56Z" description="Product details Paperback :- ISBN-13:" finished-at="2018-08-05T16:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ISBN13 -->
+        <test-method status="PASS" signature="productDimensions()[pri:15, instance:com.qa.test.script.TestScript@26653222]" name="productDimensions" duration-ms="3411" started-at="2018-08-05T16:50:59Z" description="Product details Paperback :- productDimensions" finished-at="2018-08-05T16:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDimensions -->
+        <test-method status="PASS" signature="PaperbackHardCoverPages()[pri:16, instance:com.qa.test.script.TestScript@26653222]" name="PaperbackHardCoverPages" duration-ms="3467" started-at="2018-08-05T16:51:03Z" description="Product details HardCover :- Pages" finished-at="2018-08-05T16:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaperbackHardCoverPages -->
+        <test-method status="PASS" signature="publisherNameAndDateHardcover()[pri:17, instance:com.qa.test.script.TestScript@26653222]" name="publisherNameAndDateHardcover" duration-ms="3485" started-at="2018-08-05T16:51:06Z" description="Product details HardCover :- publisher Name And Date" finished-at="2018-08-05T16:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publisherNameAndDateHardcover -->
+        <test-method status="PASS" signature="languageHardCover()[pri:18, instance:com.qa.test.script.TestScript@26653222]" name="languageHardCover" duration-ms="3377" started-at="2018-08-05T16:51:10Z" description="Product details HardCover :- Language" finished-at="2018-08-05T16:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageHardCover -->
+        <test-method status="PASS" signature="iSBNTenHardCover()[pri:19, instance:com.qa.test.script.TestScript@26653222]" name="iSBNTenHardCover" duration-ms="3505" started-at="2018-08-05T16:51:13Z" description="Product details HardCover :- ISBN-10:" finished-at="2018-08-05T16:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iSBNTenHardCover -->
+        <test-method status="PASS" signature="ISBN13HardCover()[pri:20, instance:com.qa.test.script.TestScript@26653222]" name="ISBN13HardCover" duration-ms="3961" started-at="2018-08-05T16:51:17Z" description="Product details HardCover :- ISBN-13:" finished-at="2018-08-05T16:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ISBN13HardCover -->
+        <test-method status="PASS" signature="productDimensionsHardCover()[pri:21, instance:com.qa.test.script.TestScript@26653222]" name="productDimensionsHardCover" duration-ms="3524" started-at="2018-08-05T16:51:21Z" description="Product details HardCover :- productDimensions" finished-at="2018-08-05T16:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDimensionsHardCover -->
+        <test-method status="PASS" signature="closeBroswer()[pri:0, instance:com.qa.test.script.TestScript@26653222]" name="closeBroswer" is-config="true" duration-ms="1207" started-at="2018-08-05T16:51:24Z" finished-at="2018-08-05T16:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+      </class> <!-- com.qa.test.script.TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

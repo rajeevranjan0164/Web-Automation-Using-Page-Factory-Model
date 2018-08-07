@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Rajeev Ranjan\AppData\Local\Temp\testng-eclipse--1773520865\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="ActualPricePaperback">ActualPricePaperback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="FirstAuthorName">FirstAuthorName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="ISBN13">ISBN13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="ISBN13HardCover">ISBN13HardCover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="OfferPricePaperback">OfferPricePaperback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="PaperbackHardCoverPages">PaperbackHardCoverPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="PaperbackPages">PaperbackPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="hardcoverPaper">hardcoverPaper</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="hardcoverPaperPrice">hardcoverPaperPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="iSBNTen">iSBNTen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="iSBNTenHardCover">iSBNTenHardCover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="language">language</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="languageHardCover">languageHardCover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="paperType">paperType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="productDimensions">productDimensions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="productDimensionsHardCover">productDimensionsHardCover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="publisher">publisher</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="publisherNameAndDate">publisherNameAndDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="publisherNameAndDateHardcover">publisherNameAndDateHardcover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="verifyBookTittle">verifyBookTittle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.script.TestScript" hash-for-method="verifyTittleOfWebSite">verifyTittleOfWebSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.script.TestScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ActualPricePaperback">
+                  </a> <!-- ActualPricePaperback -->
+                  <span class="method-name">ActualPricePaperback</span>
+                  <em>
+(Verify the Actual price type of the paper- Paperback)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FirstAuthorName">
+                  </a> <!-- FirstAuthorName -->
+                  <span class="method-name">FirstAuthorName</span>
+                  <em>
+( Verify the Author Name book details page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ISBN13">
+                  </a> <!-- ISBN13 -->
+                  <span class="method-name">ISBN13</span>
+                  <em>
+(Product details Paperback :- ISBN-13:)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ISBN13HardCover">
+                  </a> <!-- ISBN13HardCover -->
+                  <span class="method-name">ISBN13HardCover</span>
+                  <em>
+(Product details HardCover :- ISBN-13:)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OfferPricePaperback">
+                  </a> <!-- OfferPricePaperback -->
+                  <span class="method-name">OfferPricePaperback</span>
+                  <em>
+(Verify the offer price type of the paper- Paperback)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PaperbackHardCoverPages">
+                  </a> <!-- PaperbackHardCoverPages -->
+                  <span class="method-name">PaperbackHardCoverPages</span>
+                  <em>
+(Product details HardCover :- Pages)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PaperbackPages">
+                  </a> <!-- PaperbackPages -->
+                  <span class="method-name">PaperbackPages</span>
+                  <em>
+(Product details Paperback :- Pages)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hardcoverPaper">
+                  </a> <!-- hardcoverPaper -->
+                  <span class="method-name">hardcoverPaper</span>
+                  <em>
+(Verify the book paper type - Hardcover)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hardcoverPaperPrice">
+                  </a> <!-- hardcoverPaperPrice -->
+                  <span class="method-name">hardcoverPaperPrice</span>
+                  <em>
+( Verify the Hardcover price  book listing and book details page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iSBNTen">
+                  </a> <!-- iSBNTen -->
+                  <span class="method-name">iSBNTen</span>
+                  <em>
+(Product details Paperback :- ISBN-10:)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iSBNTenHardCover">
+                  </a> <!-- iSBNTenHardCover -->
+                  <span class="method-name">iSBNTenHardCover</span>
+                  <em>
+(Product details HardCover :- ISBN-10:)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="language">
+                  </a> <!-- language -->
+                  <span class="method-name">language</span>
+                  <em>
+(Product details Paperback :- Language)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languageHardCover">
+                  </a> <!-- languageHardCover -->
+                  <span class="method-name">languageHardCover</span>
+                  <em>
+(Product details HardCover :- Language)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paperType">
+                  </a> <!-- paperType -->
+                  <span class="method-name">paperType</span>
+                  <em>
+(Verify the book paper type)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productDimensions">
+                  </a> <!-- productDimensions -->
+                  <span class="method-name">productDimensions</span>
+                  <em>
+(Product details Paperback :- productDimensions)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productDimensionsHardCover">
+                  </a> <!-- productDimensionsHardCover -->
+                  <span class="method-name">productDimensionsHardCover</span>
+                  <em>
+(Product details HardCover :- productDimensions)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="publisher">
+                  </a> <!-- publisher -->
+                  <span class="method-name">publisher</span>
+                  <em>
+( Verify the publisher date book listing and book details page.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="publisherNameAndDate">
+                  </a> <!-- publisherNameAndDate -->
+                  <span class="method-name">publisherNameAndDate</span>
+                  <em>
+(Product details Paperback :- publisher Name And Date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="publisherNameAndDateHardcover">
+                  </a> <!-- publisherNameAndDateHardcover -->
+                  <span class="method-name">publisherNameAndDateHardcover</span>
+                  <em>
+(Product details HardCover :- publisher Name And Date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBookTittle">
+                  </a> <!-- verifyBookTittle -->
+                  <span class="method-name">verifyBookTittle</span>
+                  <em>
+(Verify Book Tittle )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTittleOfWebSite">
+                  </a> <!-- verifyTittleOfWebSite -->
+                  <span class="method-name">verifyTittleOfWebSite</span>
+                  <em>
+(verify title Of WebSite)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rajeev Ranjan\AppData\Local\Temp\testng-eclipse--1773520865\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.test.script.TestScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyBookTittle')
+data.setCell(0, 2, 'com.qa.test.script.TestScript')
+data.setCell(0, 3, 9455);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'hardcoverPaperPrice')
+data.setCell(1, 2, 'com.qa.test.script.TestScript')
+data.setCell(1, 3, 4026);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'paperType')
+data.setCell(2, 2, 'com.qa.test.script.TestScript')
+data.setCell(2, 3, 3963);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ISBN13HardCover')
+data.setCell(3, 2, 'com.qa.test.script.TestScript')
+data.setCell(3, 3, 3961);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'language')
+data.setCell(4, 2, 'com.qa.test.script.TestScript')
+data.setCell(4, 3, 3525);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'productDimensionsHardCover')
+data.setCell(5, 2, 'com.qa.test.script.TestScript')
+data.setCell(5, 3, 3524);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'iSBNTenHardCover')
+data.setCell(6, 2, 'com.qa.test.script.TestScript')
+data.setCell(6, 3, 3505);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'PaperbackPages')
+data.setCell(7, 2, 'com.qa.test.script.TestScript')
+data.setCell(7, 3, 3504);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'publisherNameAndDateHardcover')
+data.setCell(8, 2, 'com.qa.test.script.TestScript')
+data.setCell(8, 3, 3485);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'hardcoverPaper')
+data.setCell(9, 2, 'com.qa.test.script.TestScript')
+data.setCell(9, 3, 3468);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'PaperbackHardCoverPages')
+data.setCell(10, 2, 'com.qa.test.script.TestScript')
+data.setCell(10, 3, 3467);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'publisherNameAndDate')
+data.setCell(11, 2, 'com.qa.test.script.TestScript')
+data.setCell(11, 3, 3431);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'productDimensions')
+data.setCell(12, 2, 'com.qa.test.script.TestScript')
+data.setCell(12, 3, 3411);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ActualPricePaperback')
+data.setCell(13, 2, 'com.qa.test.script.TestScript')
+data.setCell(13, 3, 3402);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'languageHardCover')
+data.setCell(14, 2, 'com.qa.test.script.TestScript')
+data.setCell(14, 3, 3377);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'OfferPricePaperback')
+data.setCell(15, 2, 'com.qa.test.script.TestScript')
+data.setCell(15, 3, 3304);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'FirstAuthorName')
+data.setCell(16, 2, 'com.qa.test.script.TestScript')
+data.setCell(16, 3, 3214);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ISBN13')
+data.setCell(17, 2, 'com.qa.test.script.TestScript')
+data.setCell(17, 3, 3172);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'iSBNTen')
+data.setCell(18, 2, 'com.qa.test.script.TestScript')
+data.setCell(18, 3, 3104);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'publisher')
+data.setCell(19, 2, 'com.qa.test.script.TestScript')
+data.setCell(19, 3, 3057);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyTittleOfWebSite')
+data.setCell(20, 2, 'com.qa.test.script.TestScript')
+data.setCell(20, 3, 39);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.script.TestScript</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyTittleOfWebSite</span>
+                <span class="method-start">24740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBookTittle</span>
+                <span class="method-start">24791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">paperType</span>
+                <span class="method-start">34252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OfferPricePaperback</span>
+                <span class="method-start">38220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ActualPricePaperback</span>
+                <span class="method-start">41530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hardcoverPaper</span>
+                <span class="method-start">44938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">publisher</span>
+                <span class="method-start">48412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hardcoverPaperPrice</span>
+                <span class="method-start">51473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FirstAuthorName</span>
+                <span class="method-start">55504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PaperbackPages</span>
+                <span class="method-start">58722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">publisherNameAndDate</span>
+                <span class="method-start">62233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">language</span>
+                <span class="method-start">65667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">iSBNTen</span>
+                <span class="method-start">69196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ISBN13</span>
+                <span class="method-start">72304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productDimensions</span>
+                <span class="method-start">75481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PaperbackHardCoverPages</span>
+                <span class="method-start">78896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">publisherNameAndDateHardcover</span>
+                <span class="method-start">82366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">languageHardCover</span>
+                <span class="method-start">85855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">iSBNTenHardCover</span>
+                <span class="method-start">89235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ISBN13HardCover</span>
+                <span class="method-start">92744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productDimensionsHardCover</span>
+                <span class="method-start">96709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBroswer</span>
+                <span class="method-start">100236 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

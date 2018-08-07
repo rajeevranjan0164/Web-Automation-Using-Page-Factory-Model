@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 05 12:49:44 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>101 seconds (101449 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.test.script.TestScript.ActualPricePaperback()'><b>ActualPricePaperback</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Verify the Actual price type of the paper- Paperback</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.FirstAuthorName()'><b>FirstAuthorName</b><br>Test class: com.qa.test.script.TestScript<br>Test method:  Verify the Author Name book details page.</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.ISBN13()'><b>ISBN13</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details Paperback :- ISBN-13:</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.ISBN13HardCover()'><b>ISBN13HardCover</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details HardCover :- ISBN-13:</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.OfferPricePaperback()'><b>OfferPricePaperback</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Verify the offer price type of the paper- Paperback</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.PaperbackHardCoverPages()'><b>PaperbackHardCoverPages</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details HardCover :- Pages</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.PaperbackPages()'><b>PaperbackPages</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details Paperback :- Pages</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.hardcoverPaper()'><b>hardcoverPaper</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Verify the book paper type - Hardcover</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.hardcoverPaperPrice()'><b>hardcoverPaperPrice</b><br>Test class: com.qa.test.script.TestScript<br>Test method:  Verify the Hardcover price  book listing and book details page.</td>
+<td></td>
+<td>4</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.iSBNTen()'><b>iSBNTen</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details Paperback :- ISBN-10:</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.iSBNTenHardCover()'><b>iSBNTenHardCover</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details HardCover :- ISBN-10:</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.language()'><b>language</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details Paperback :- Language</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.languageHardCover()'><b>languageHardCover</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details HardCover :- Language</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.paperType()'><b>paperType</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Verify the book paper type</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.productDimensions()'><b>productDimensions</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details Paperback :- productDimensions</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.productDimensionsHardCover()'><b>productDimensionsHardCover</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details HardCover :- productDimensions</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.publisher()'><b>publisher</b><br>Test class: com.qa.test.script.TestScript<br>Test method:  Verify the publisher date book listing and book details page.</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.publisherNameAndDate()'><b>publisherNameAndDate</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details Paperback :- publisher Name And Date</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.publisherNameAndDateHardcover()'><b>publisherNameAndDateHardcover</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Product details HardCover :- publisher Name And Date</td>
+<td></td>
+<td>3</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.verifyBookTittle()'><b>verifyBookTittle</b><br>Test class: com.qa.test.script.TestScript<br>Test method: Verify Book Tittle </td>
+<td></td>
+<td>9</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+<tr>
+<td title='com.qa.test.script.TestScript.verifyTittleOfWebSite()'><b>verifyTittleOfWebSite</b><br>Test class: com.qa.test.script.TestScript<br>Test method: verify title Of WebSite</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.script.TestScript@26653222</td></tr>
+</table><p>
+</body>
+</html>

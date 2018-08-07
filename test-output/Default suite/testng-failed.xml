@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.test.script.TestScript">
+        <methods>
+          <include name="FirstAuthorName"/>
+          <include name="OfferPricePaperback"/>
+          <include name="iSBNTen"/>
+          <include name="PaperbackHardCoverPages"/>
+          <include name="languageHardCover"/>
+          <include name="productDimensionsHardCover"/>
+          <include name="productDimensions"/>
+          <include name="publisher"/>
+          <include name="publisherNameAndDate"/>
+          <include name="setUp"/>
+          <include name="ISBN13"/>
+          <include name="hardcoverPaperPrice"/>
+          <include name="ISBN13HardCover"/>
+          <include name="hardcoverPaper"/>
+          <include name="ActualPricePaperback"/>
+          <include name="iSBNTenHardCover"/>
+          <include name="PaperbackPages"/>
+          <include name="paperType"/>
+          <include name="publisherNameAndDateHardcover"/>
+          <include name="closeBroswer"/>
+          <include name="language"/>
+          <include name="verifyBookTittle"/>
+          <include name="verifyTittleOfWebSite"/>
+        </methods>
+      </class> <!-- com.qa.test.script.TestScript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
