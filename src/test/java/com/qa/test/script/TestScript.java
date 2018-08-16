@@ -85,7 +85,7 @@ public class TestScript {
 	@BeforeTest()
 	public void setUp() {
 		// here I have pass the chrome driver "key" and "value"
-		System.setProperty(key, value);
+		System.setProperty(key,System.getProperty("user.dir")+"/src/main/resource/drivers/chromedriver.exe");
 		// Here It will lunch of my chrome driver
 		driver = new ChromeDriver();
 
